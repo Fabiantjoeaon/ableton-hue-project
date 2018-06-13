@@ -1,0 +1,17 @@
+{
+    "name": "ableton",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon src/index.js --ignore node_modules public/ env TZ='Europe/Amsterdam'"
+    },
+    "dependencies": {
+        "deep-equal": "^1.0.1",
+        "jzz": "^0.4.9",
+        "lodash": "^4.17.10",
+        "max4node": "^0.1.2",
+        "node-hue-api": "^2.4.2",
+        "push-wrapper": "^2.1.2"
+    }
+}
